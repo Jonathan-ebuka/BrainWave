@@ -1,16 +1,13 @@
-import ButtonGradient from "./assets/svg/ButtonGradient";
+// import ButtonGradient from "./assets/svg/ButtonGradient";
 
-import Header from "./components/Header";
-import HeroSec from "./components/HeroSec";
+// import Header from "./components/Header";
+// import HeroSec from "./components/HeroSec";
+import Homepage from "./pages/Homepage";
 
 const App = () => {
   return (
     <>
-      <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
-        <Header />
-        <HeroSec />
-      </div>
-      <ButtonGradient />
+      <Homepage />
     </>
   );
 };
